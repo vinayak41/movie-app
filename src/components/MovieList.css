@@ -1,0 +1,16 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.movie-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2rem 5rem;
+}
+
+h3 {
+    color: white;
+    margin: 1rem;
+}

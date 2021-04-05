@@ -1,0 +1,83 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 5rem;
+    background-color: rgb(251, 255, 0);
+}
+
+.app-title {
+    font-family: 'Bungee', cursive;
+    margin: auto 3rem;
+}
+
+.search {
+    position: absolute;
+    right: 5rem;
+    top: 1rem;
+}
+
+.search-filed {
+    width: 13rem;
+    height: 2rem;
+    padding: 10px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.search-button {
+    width: 5rem;
+    height: 2rem;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 658px) {
+    .app-title {
+        font-family: 'Bungee', cursive;
+        font-size: 1.50rem;
+        margin: auto 3rem;
+    }
+
+    .search-filed {
+        width: 10rem;
+    }
+
+    .search-button {
+        width: 3.5rem;
+    }
+
+    .search {
+        right: 1rem;
+        top: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .app-title {
+        font-family: 'Bungee', cursive;
+        font-size: 1rem;
+        margin: auto 3rem;
+    }
+
+    .search-filed {
+        width: 8rem;
+        height: 1.6rem;
+    }
+
+    .search-button {
+        width: 3.5rem;
+        height: 1.6rem;
+    }
+}

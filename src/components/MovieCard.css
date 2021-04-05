@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.movie-card {
+    position: relative;
+    width: 9rem;
+    height: 13rem;
+    background-color: rgb(58, 58, 58);
+    margin: 1rem;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.movie-poster {
+    width: 100%;
+    height: 82%;
+}
+
+.movie-title {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 300;
+    margin: auto 15px;
+}
+
+.favorite-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    display: none;
+}
+
+.movie-card:hover .favorite-button {
+    display: block;
+}
+
+.movie-card:hover .overlay {
+    display: block;
+}
+
+.overlay {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: -2.5rem;
+    right: -2.5rem;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.9587185215883228) 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 50%;
+    display: none;
+}

@@ -1,0 +1,23 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.movie-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2rem 5rem;
+}
+
+h3 {
+    color: white;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 604px) {
+    .movie-list {
+        justify-content: center;
+    }
+}
